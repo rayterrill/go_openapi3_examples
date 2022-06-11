@@ -1,6 +1,6 @@
 # openapi3 Examples
 
-Couldn't really find any good getting started examples for kin-openapi/openapi3. Hope this helps someone.
+Couldn't really find any good getting started examples for kin-openapi/openapi3 and Spectral validation of an entire openapi document. Hope this helps someone. ❤
 
 ## Contents
 
