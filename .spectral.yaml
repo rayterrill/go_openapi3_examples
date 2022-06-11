@@ -1,0 +1,22 @@
+extends: 
+  - ["spectral:oas", all]
+
+functionsDir: ./functions
+
+functions:
+  - version
+
+rules:
+  #example js spectral rule that takes the entire document and allows checking multiple things
+  versionChecker:
+    description: Version checker example function
+    given: $
+    severity: error
+    recommended: true
+    resolved: true
+    message: "{{error}}"
+    then:
+      function: version
+      functionOptions:
+        #example of passing values to our function
+        doubleVersionMatcher: '\/v\d+\/v\d+/'
